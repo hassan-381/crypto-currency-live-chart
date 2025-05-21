@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.glass-card {
+  @apply bg-white/60 dark:bg-gray-800/60 backdrop-blur-md rounded-2xl shadow-xl p-6 border border-gray-200 dark:border-gray-700;
+}
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+} */
+.app {
+  min-height: 100vh;
+  color: white;
+  background: linear-gradient(#0b004e, #1d152f, #002834);
+}
+/* .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px, 10%;
+  color: #ddd;
+  border-bottom: 2px solid #3c3c3c;
+}
+.navbar .logo {
+  width: max(12vw, 120px);
+} */
